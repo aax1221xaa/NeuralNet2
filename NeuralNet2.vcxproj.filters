@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="NeuralNet">
+      <UniqueIdentifier>{74b93258-2cca-4c25-840e-29ec28e2e300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NeuralNet\source">
+      <UniqueIdentifier>{5fbbfe02-895a-4d0e-9f99-85582d489148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NeuralNet\header">
+      <UniqueIdentifier>{51703339-8ec0-43aa-bed0-0c29de5af163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{8e4e5bc3-eba1-4131-89a0-f960a63f2da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\source">
+      <UniqueIdentifier>{70b89777-f4fb-432e-9d88-a102622f8efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\header">
+      <UniqueIdentifier>{42030a3d-1069-47a4-b1ca-2fce20eb7a99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\BackwardAlgorithm.cpp">
+      <Filter>NeuralNet\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\ForwardAlgorithm.cpp">
+      <Filter>NeuralNet\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\NN.cpp">
+      <Filter>NeuralNet\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\NN_Base.cpp">
+      <Filter>NeuralNet\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\OptimizerAlgorithm.cpp">
+      <Filter>NeuralNet\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\Base.cpp">
+      <Filter>Base\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\Dim.cpp">
+      <Filter>Base\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\MNIST_Data.cpp">
+      <Filter>Base\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\CudaException.cpp">
+      <Filter>Base\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\source\ObjectID.cpp">
+      <Filter>Base\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\header\BackwardAlgorithm.h">
+      <Filter>NeuralNet\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\ForwardAlgorithm.h">
+      <Filter>NeuralNet\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\NN.h">
+      <Filter>NeuralNet\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\NN_Base.h">
+      <Filter>NeuralNet\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\NN_Cuda.cuh">
+      <Filter>NeuralNet\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\OptimizerAlgorithm.h">
+      <Filter>NeuralNet\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\Base.h">
+      <Filter>Base\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\CudaException.h">
+      <Filter>Base\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\Dim.h">
+      <Filter>Base\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\MNIST_Data.h">
+      <Filter>Base\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\ObjectID.h">
+      <Filter>Base\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\Ptr.h">
+      <Filter>Base\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="src\source\NN_Cuda.cu">
+      <Filter>NeuralNet\source</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
